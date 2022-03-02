@@ -1,0 +1,55 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+// Variables
+@import "variables";
+
+// Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.color {
+    background:#0000005f;
+}
+
+.bg-color{
+    background: rgb(17,24,39);
+    background: linear-gradient(180deg, rgba(17,24,39,1) 0%, rgba(8,12,19,1) 100%);
+}
+
+.height {
+    height: 500px;
+}
+
+.gradient{
+    background: linear-gradient(0deg, #0d131f 0%, rgba(255,255,255,0) 70%);
+}
+
+@media screen and (min-width: 600px) {
+    .height {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .height {
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 470px) {
+    .xs\:w-96 {
+        width: 24rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .xs\:w-full {
+        width: 100%;
+    }
+}
